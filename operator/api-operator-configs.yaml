@@ -835,9 +835,9 @@ metadata:
 apiVersion: v1
 data:
   apimCredentialsSecret: apim-secret
-  apimKeymanagerEndpoint: https://wso2apim:9443
-  apimPublisherEndpoint: https://wso2apim:9443
-  apimTokenEndpoint: https://wso2apim:9443/oauth2/token
+  apimKeymanagerEndpoint: https://wso2am-pattern-1-am-service:9443
+  apimPublisherEndpoint: https://wso2am-pattern-1-am-service:9443
+  apimTokenEndpoint: https://wso2am-pattern-1-am-service:9443/oauth2/token
   insecureSkipVerify: "true"
 kind: ConfigMap
 metadata:
@@ -966,7 +966,7 @@ apiVersion: v1
 data:
   cert_security: YXBpbS1jZXJ0LXNlY3JldA==
   password: YWRtaW4=
-  username: YWRtaW4=
+  username: YWRtaW5AZ29nby5jb20=
 kind: Secret
 metadata:
   name: apim-secret
